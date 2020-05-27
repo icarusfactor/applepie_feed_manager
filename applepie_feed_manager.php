@@ -6,7 +6,7 @@
 Plugin Name: Applepie Feed Manager Plugin
 Plugin URI: http://userspace.org
 Description: Admin Plugin to pull tablepress tables data and parse and insert into ap feeds table that prioritize and display RSS feeds.
-Version: 1.0.0
+Version: 1.0.1
 Author: Daniel Yount aka icarus[factor] factorf2@yahoo.com
 Author URI: http://userfspace.org
 License: GPLv2 or later
@@ -71,14 +71,6 @@ if ( !class_exists( 'ApplepieFeedManagerPlugin' ) ) {
 		function enqueue() {
 			// enqueue all our scripts
 			wp_enqueue_style( 'apfmpluginstyle', plugins_url( '/assets/apfmstyle.css', __FILE__ ) );
-
-			//wp_enqueue_style( 'apfmjqueryuicss', plugins_url( '/assets/jquery-ui.min.css', __FILE__ ) );
-			//wp_enqueue_style( 'apfmjqueryuithemecss', plugins_url( '/assets/jquery-ui.theme.min.css', __FILE__ ) );
-
-			//wp_enqueue_script( 'apfmjquery', plugins_url( '/assets/jquery.min.js', __FILE__ ) );
-			//wp_enqueue_script( 'apfmpopper', plugins_url( '/assets/popper.min.js', __FILE__ ) );
-			//wp_enqueue_script( 'apfmjqueryboot', plugins_url( '/assets/bootstrap.js', __FILE__ ) );
-			//wp_enqueue_script( 'apfmmodernizer', plugins_url( '/assets/modernizr-custom.js', __FILE__ ) );
 
            wp_enqueue_style('apfmbootcss', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
             wp_enqueue_script('apfmpopper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js');

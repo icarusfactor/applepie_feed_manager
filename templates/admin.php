@@ -145,7 +145,7 @@ APPLEPIE FEED MANGER:
 2: In the Applepie Feed Manager , select the Controls tab. You can  VIEW new items here.
 3: After you VIEW them ,you can DELETE specific table.
 4: After you DELETE the specific database you can PUSH in new database configurations
-5: After you PUSH in new data, you will then need to syncronize by cycling ALL cache RSS systems.  
+5: After you PUSH in new data, you will then need to syncronize by cycling the RSS cache system by clicking OFF and then ON.  
 6: New configuration should be updating at this time. It may take a couple of minuets depeding o your list size. 
  
  
