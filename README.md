@@ -1,4 +1,6 @@
 # applepie_feed_manager
+
+## Wordpress Plugin:
 > Admin Plugin to pull tablepress tables data and parse and insert into ap feeds table that prioritize and display RSS feeds.
 
 >   Moving all my plugins and theme from the Userspace.org repo to indiviual repos as when I started it was much smaller.
