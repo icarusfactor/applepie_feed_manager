@@ -6,7 +6,7 @@
 
 # APPLEPIE FEED MANGER:
 
->     This plugin works in concert with the TablePress,Appliepie and RAW Seed Plugins. Where you can create
+>  This plugin works in concert with the TablePress,Appliepie and RAW Seed Plugins. Where you can create
 >  and enter in RSS feeds from NEWS, VIDEOS, AUDIO sites. This will parse the Enable column to push it into
 >  the database or not. When you change a setting in the associated TablePress table. You will then have to
 >  update the time based RSS database cache.  After you delete the current database and push in your new
